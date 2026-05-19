@@ -19,9 +19,12 @@ services:
     environment:
       - DB_SERVER=db
       - DB_PASSWORD=YourStrongPassword123!
+    ports:
+      - "5000:5000"
     volumes:
       - .:/app
-    command: python gold.py
+    command: sh -c "python gold.py && python app.py"
 
 volumes:
   mssql_data:
+
