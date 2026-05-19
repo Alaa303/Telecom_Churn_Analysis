@@ -19,7 +19,7 @@ def home():
         <body>
             <div class="container">
                 <h1>Telecom Churn Analysis UI</h1>
-                <p class="status">Pipeline Built, Tested, and Deployed Successfully! 🎉</p>
+                <p class="status">Pipeline Built, Tested, and Deployed Successfully</p>
                 <p>Medallion Architecture Layers (Bronze -> Silver -> Gold) are fully processed and saved to SQL Server.</p>
             </div>
         </body>
